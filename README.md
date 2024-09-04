@@ -6,3 +6,5 @@
 
 <img src = "assets/CLB_AI_1.png" style="width:300px;">
 
+[HowTo](HowTo.md)
+
