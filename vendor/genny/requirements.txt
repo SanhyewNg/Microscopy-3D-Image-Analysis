@@ -1,0 +1,6 @@
+imageio
+imgaug
+matplotlib
+numpy
+opencv-python
+skimage

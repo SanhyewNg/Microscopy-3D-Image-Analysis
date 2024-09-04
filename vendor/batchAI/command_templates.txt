@@ -1,0 +1,44 @@
+# create_cluster.py
+python create_cluster.py \
+    --resource_group <resource_group> \
+    --location <location> \
+    --subscription_id <subscription_id> \
+    --aad_client_id <aad_client_id> \
+    --aad_secret_key <aad_secret_key> \
+    --aad_tenant_id <aad_tenant_id> \
+    --storage_account <storage_account> \
+    --storage_key <storage_key> \
+    --azure_file_share <azure_file_share> \
+    --admin_name <admin_name> \
+    --admin_user_password <admin_user_password> \
+    --cluster_name <cluster_name> \
+    --vm_size <vm_size> \
+    --initial_node_count <initial_node_count> \
+    --max_node_count <max_node_count> \
+    --min_node_count <min_node_count> \
+    --admin_user_ssh_public_key <admin_user_ssh_public_key> \
+    --url <url> 
+
+# run_job.py
+python run_job.py \
+    --resource_group <resource_group> \
+    --location <location> \
+    --subscription_id <subscription_id> \
+    --aad_client_id <aad_client_id> \
+    --aad_secret_key <aad_secret_key> \
+    --aad_tenant_id <aad_tenant_id> \
+    --storage_account <storage_account> \
+    --storage_key <storage_key> \
+    --azure_file_share <azure_file_share> \
+    --cluster_name <cluster_name> \
+    --job_name <job_name> \
+    --job_node_count <job_node_count> \
+    --keras_working_dir <keras_working_dir> \
+    --job_command <job_command> \
+    --output_directory_id <output_directory_id> \
+    --file_name <file_name> \
+    --job_polling_interval <job_polling_interval> \
+    --container_image <container_image> \
+    --registry_url <registry_url> \
+    --registry_password <registry_password> \
+    --registry_username <registry_username>

@@ -1,0 +1,2 @@
+gspread
+google-api-python-client
