@@ -3,19 +3,6 @@
 The aim of this project is segment, classify and analyse cells visible in 3D fluorescent imagery with high density of the cells. We use DAPI channel to segment nuclei, classification can use other channels. 
 Analysis consist of nuclei statistics as well as spatial statistics between difference cell types. All is wrapped in CLB-Virtum cloud application developed in separate repository.
 
-## Getting code
-
-Due to the usage of submodules, please clone the repo using `ssh` method:
-
-```(bash)
-git clone --recursive git@github.com:MicroscopeIT/clb-ai.git
-```
-
-or using `https` method:
-
-```(bash)
-git clone --recursive https://github.com/MicroscopeIT/clb-ai.git
-```
 
 ### Dependencies
 
@@ -25,15 +12,6 @@ Project requires `javabridge` library. To install this package Java Development 
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64/"
 export PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin
 ```
-
-## Data storage
-Most of the data, results, investigations and annotations are store on GD. See summary document for descriptions: https://docs.google.com/document/d/14sIDNju-_Tvm7jfPodcxYvvdzL0A4jq7Jlll5OHzs9Y
-
-## MicroscopeIT Resources
-MicroscopeIT offers its computational resources for this project: VM with GPU onboard.
-
-### Access
-VM's address is [cldx-gpu-machine.eastus.cloudapp.azure.com](cldx-gpu-machine.eastus.cloudapp.azure.com). To get the access, contact Olek Cieślak (aleksander.cieslak@microscopeit.com or *olek.cieslak* on Slack).
 
 ### General Usage
 
